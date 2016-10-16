@@ -1,0 +1,356 @@
+edge rashtrapatibhavan indiagate 5 : 
+edge rashtrapatibhavan chanakyapuri 15 : 
+edge indiagate AIIMS 30 : 
+edge cantonment chanakyapuri 10 : 
+edge chanakyapuri AIIMS 40 : 
+edge AIIMS lajpatnagar 20 : 
+edge cantonment vasantvihar 30 : 
+edge chanakyapuri munirka 25 : 
+edge chanakyapuri iithostelgate 35 : 
+edge AIIMS iitmaingate 20 : 
+edge lajpatnagar iitmaingate 40 : 
+edge vasantvihar munirka 30 : 
+edge munirka iithostelgate 20 : 
+edge iithostelgate iitmaingate 10 : 
+edge vasantvihar terminal3 10 : 
+taxi adam rashtrapatibhavan : 
+taxi alice indiagate : 
+taxi bob cantonment : 
+taxi prathmesh chanakyapuri : 
+taxi manoj AIIMS : 
+taxi rajesh AIIMS : 
+taxi harinder lajpatnagar : 
+taxi ismail lajpatnagar : 
+taxi chinappa vasantvihar : 
+taxi sheshadri munirka : 
+taxi john munirka : 
+taxi ankit munirka : 
+taxi raja iithostelgate : 
+taxi mary iitmaingate : 
+taxi shafiq terminal3 : 
+taxi ashutosh terminal3 : 
+taxi rohit terminal3 : 
+taxi ram AIIMS : 
+taxi cyrus chanakyapuri : 
+taxi sapna indiagate : 
+printTaxiPosition 0 : 
+sapna: indiagate
+cyrus: chanakyapuri
+ram: AIIMS
+rohit: terminal3
+ashutosh: terminal3
+shafiq: terminal3
+mary: iitmaingate
+raja: iithostelgate
+ankit: munirka
+john: munirka
+sheshadri: munirka
+chinappa: vasantvihar
+ismail: lajpatnagar
+harinder: lajpatnagar
+rajesh: AIIMS
+manoj: AIIMS
+prathmesh: chanakyapuri
+bob: cantonment
+alice: indiagate
+adam: rashtrapatibhavan
+
+customer iitmaingate munirka 1 : 
+Available taxis:
+Path of sapna: indiagate, AIIMS, iitmaingate.  time taken is 50 units
+Path of cyrus: chanakyapuri, iithostelgate, iitmaingate.  time taken is 45 units
+Path of ram: AIIMS, iitmaingate.  time taken is 20 units
+Path of rohit: terminal3, vasantvihar, munirka, iithostelgate, iitmaingate.  time taken is 70 units
+Path of ashutosh: terminal3, vasantvihar, munirka, iithostelgate, iitmaingate.  time taken is 70 units
+Path of shafiq: terminal3, vasantvihar, munirka, iithostelgate, iitmaingate.  time taken is 70 units
+Path of mary: iitmaingate.  time taken is 0 units
+Path of raja: iithostelgate, iitmaingate.  time taken is 10 units
+Path of ankit: munirka, iithostelgate, iitmaingate.  time taken is 30 units
+Path of john: munirka, iithostelgate, iitmaingate.  time taken is 30 units
+Path of sheshadri: munirka, iithostelgate, iitmaingate.  time taken is 30 units
+Path of chinappa: vasantvihar, munirka, iithostelgate, iitmaingate.  time taken is 60 units
+Path of ismail: lajpatnagar, iitmaingate.  time taken is 40 units
+Path of harinder: lajpatnagar, iitmaingate.  time taken is 40 units
+Path of rajesh: AIIMS, iitmaingate.  time taken is 20 units
+Path of manoj: AIIMS, iitmaingate.  time taken is 20 units
+Path of prathmesh: chanakyapuri, iithostelgate, iitmaingate.  time taken is 45 units
+Path of bob: cantonment, chanakyapuri, iithostelgate, iitmaingate.  time taken is 55 units
+Path of alice: indiagate, AIIMS, iitmaingate.  time taken is 50 units
+Path of adam: rashtrapatibhavan, indiagate, AIIMS, iitmaingate.  time taken is 55 units
+** Chose mary to service the customer request ***
+Path of customer: iitmaingate, iithostelgate, munirka. time taken is 30 units
+
+customer AIIMS cantonmenti 5 : 
+Available taxis:
+No Taxi can be alloted to you.
+
+customer cantonment AIIMS 10 : 
+Available taxis:
+Path of sapna: indiagate, rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 30 units
+Path of cyrus: chanakyapuri, cantonment.  time taken is 10 units
+Path of ram: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of rohit: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of ashutosh: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of shafiq: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of raja: iithostelgate, chanakyapuri, cantonment.  time taken is 45 units
+Path of ankit: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of john: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of sheshadri: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of chinappa: vasantvihar, cantonment.  time taken is 30 units
+Path of ismail: lajpatnagar, AIIMS, chanakyapuri, cantonment.  time taken is 70 units
+Path of harinder: lajpatnagar, AIIMS, chanakyapuri, cantonment.  time taken is 70 units
+Path of rajesh: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of manoj: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of prathmesh: chanakyapuri, cantonment.  time taken is 10 units
+Path of bob: cantonment.  time taken is 0 units
+Path of alice: indiagate, rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 30 units
+Path of adam: rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 25 units
+** Chose bob to service the customer request ***
+Path of customer: cantonment, chanakyapuri, AIIMS. time taken is 50 units
+
+customer cantonment terminal3 10 : 
+Available taxis:
+Path of sapna: indiagate, rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 30 units
+Path of cyrus: chanakyapuri, cantonment.  time taken is 10 units
+Path of ram: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of rohit: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of ashutosh: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of shafiq: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of raja: iithostelgate, chanakyapuri, cantonment.  time taken is 45 units
+Path of ankit: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of john: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of sheshadri: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of chinappa: vasantvihar, cantonment.  time taken is 30 units
+Path of ismail: lajpatnagar, AIIMS, chanakyapuri, cantonment.  time taken is 70 units
+Path of harinder: lajpatnagar, AIIMS, chanakyapuri, cantonment.  time taken is 70 units
+Path of rajesh: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of manoj: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of prathmesh: chanakyapuri, cantonment.  time taken is 10 units
+Path of alice: indiagate, rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 30 units
+Path of adam: rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 25 units
+** Chose cyrus to service the customer request ***
+Path of customer: cantonment, vasantvihar, terminal3. time taken is 40 units
+
+printTaxiPosition 11 : 
+sapna: indiagate
+ram: AIIMS
+rohit: terminal3
+ashutosh: terminal3
+shafiq: terminal3
+raja: iithostelgate
+ankit: munirka
+john: munirka
+sheshadri: munirka
+chinappa: vasantvihar
+ismail: lajpatnagar
+harinder: lajpatnagar
+rajesh: AIIMS
+manoj: AIIMS
+prathmesh: chanakyapuri
+alice: indiagate
+adam: rashtrapatibhavan
+
+customer iithostelgate chanakyapuri 15 : 
+Available taxis:
+Path of sapna: indiagate, rashtrapatibhavan, chanakyapuri, iithostelgate.  time taken is 55 units
+Path of ram: AIIMS, iitmaingate, iithostelgate.  time taken is 30 units
+Path of rohit: terminal3, vasantvihar, munirka, iithostelgate.  time taken is 60 units
+Path of ashutosh: terminal3, vasantvihar, munirka, iithostelgate.  time taken is 60 units
+Path of shafiq: terminal3, vasantvihar, munirka, iithostelgate.  time taken is 60 units
+Path of raja: iithostelgate.  time taken is 0 units
+Path of ankit: munirka, iithostelgate.  time taken is 20 units
+Path of john: munirka, iithostelgate.  time taken is 20 units
+Path of sheshadri: munirka, iithostelgate.  time taken is 20 units
+Path of chinappa: vasantvihar, munirka, iithostelgate.  time taken is 50 units
+Path of ismail: lajpatnagar, iitmaingate, iithostelgate.  time taken is 50 units
+Path of harinder: lajpatnagar, iitmaingate, iithostelgate.  time taken is 50 units
+Path of rajesh: AIIMS, iitmaingate, iithostelgate.  time taken is 30 units
+Path of manoj: AIIMS, iitmaingate, iithostelgate.  time taken is 30 units
+Path of prathmesh: chanakyapuri, iithostelgate.  time taken is 35 units
+Path of alice: indiagate, rashtrapatibhavan, chanakyapuri, iithostelgate.  time taken is 55 units
+Path of adam: rashtrapatibhavan, chanakyapuri, iithostelgate.  time taken is 50 units
+** Chose raja to service the customer request ***
+Path of customer: iithostelgate, chanakyapuri. time taken is 35 units
+
+customer munirka vasantvihar 15 : 
+Available taxis:
+Path of sapna: indiagate, rashtrapatibhavan, chanakyapuri, munirka.  time taken is 45 units
+Path of ram: AIIMS, iitmaingate, iithostelgate, munirka.  time taken is 50 units
+Path of rohit: terminal3, vasantvihar, munirka.  time taken is 40 units
+Path of ashutosh: terminal3, vasantvihar, munirka.  time taken is 40 units
+Path of shafiq: terminal3, vasantvihar, munirka.  time taken is 40 units
+Path of ankit: munirka.  time taken is 0 units
+Path of john: munirka.  time taken is 0 units
+Path of sheshadri: munirka.  time taken is 0 units
+Path of chinappa: vasantvihar, munirka.  time taken is 30 units
+Path of ismail: lajpatnagar, iitmaingate, iithostelgate, munirka.  time taken is 70 units
+Path of harinder: lajpatnagar, iitmaingate, iithostelgate, munirka.  time taken is 70 units
+Path of rajesh: AIIMS, iitmaingate, iithostelgate, munirka.  time taken is 50 units
+Path of manoj: AIIMS, iitmaingate, iithostelgate, munirka.  time taken is 50 units
+Path of prathmesh: chanakyapuri, munirka.  time taken is 25 units
+Path of alice: indiagate, rashtrapatibhavan, chanakyapuri, munirka.  time taken is 45 units
+Path of adam: rashtrapatibhavan, chanakyapuri, munirka.  time taken is 40 units
+** Chose ankit to service the customer request ***
+Path of customer: munirka, vasantvihar. time taken is 30 units
+
+customer vasantvihar lajpatnagar 25 : 
+Available taxis:
+Path of sapna: indiagate, rashtrapatibhavan, chanakyapuri, cantonment, vasantvihar.  time taken is 60 units
+Path of ram: AIIMS, chanakyapuri, cantonment, vasantvihar.  time taken is 80 units
+Path of rohit: terminal3, vasantvihar.  time taken is 10 units
+Path of ashutosh: terminal3, vasantvihar.  time taken is 10 units
+Path of shafiq: terminal3, vasantvihar.  time taken is 10 units
+Path of john: munirka, vasantvihar.  time taken is 30 units
+Path of sheshadri: munirka, vasantvihar.  time taken is 30 units
+Path of chinappa: vasantvihar.  time taken is 0 units
+Path of ismail: lajpatnagar, AIIMS, chanakyapuri, cantonment, vasantvihar.  time taken is 100 units
+Path of harinder: lajpatnagar, AIIMS, chanakyapuri, cantonment, vasantvihar.  time taken is 100 units
+Path of rajesh: AIIMS, chanakyapuri, cantonment, vasantvihar.  time taken is 80 units
+Path of manoj: AIIMS, chanakyapuri, cantonment, vasantvihar.  time taken is 80 units
+Path of prathmesh: chanakyapuri, cantonment, vasantvihar.  time taken is 40 units
+Path of alice: indiagate, rashtrapatibhavan, chanakyapuri, cantonment, vasantvihar.  time taken is 60 units
+Path of adam: rashtrapatibhavan, chanakyapuri, cantonment, vasantvihar.  time taken is 55 units
+** Chose chinappa to service the customer request ***
+Path of customer: vasantvihar, munirka, iithostelgate, iitmaingate, lajpatnagar. time taken is 100 units
+
+printTaxiPosition 26 : 
+sapna: indiagate
+ram: AIIMS
+rohit: terminal3
+ashutosh: terminal3
+shafiq: terminal3
+john: munirka
+sheshadri: munirka
+ismail: lajpatnagar
+harinder: lajpatnagar
+rajesh: AIIMS
+manoj: AIIMS
+prathmesh: chanakyapuri
+alice: indiagate
+adam: rashtrapatibhavan
+
+customer cantonment lajpatnagar 40 : 
+Available taxis:
+Path of sapna: indiagate, rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 30 units
+Path of ram: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of rohit: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of ashutosh: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of shafiq: terminal3, vasantvihar, cantonment.  time taken is 40 units
+Path of mary: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of john: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of sheshadri: munirka, chanakyapuri, cantonment.  time taken is 35 units
+Path of ismail: lajpatnagar, AIIMS, chanakyapuri, cantonment.  time taken is 70 units
+Path of harinder: lajpatnagar, AIIMS, chanakyapuri, cantonment.  time taken is 70 units
+Path of rajesh: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of manoj: AIIMS, chanakyapuri, cantonment.  time taken is 50 units
+Path of prathmesh: chanakyapuri, cantonment.  time taken is 10 units
+Path of alice: indiagate, rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 30 units
+Path of adam: rashtrapatibhavan, chanakyapuri, cantonment.  time taken is 25 units
+** Chose prathmesh to service the customer request ***
+Path of customer: cantonment, chanakyapuri, AIIMS, lajpatnagar. time taken is 70 units
+
+customer rashtrapatibhavan AIIMS 40 : 
+Available taxis:
+Path of sapna: indiagate, rashtrapatibhavan.  time taken is 5 units
+Path of ram: AIIMS, indiagate, rashtrapatibhavan.  time taken is 35 units
+Path of rohit: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan.  time taken is 65 units
+Path of ashutosh: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan.  time taken is 65 units
+Path of shafiq: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan.  time taken is 65 units
+Path of mary: munirka, chanakyapuri, rashtrapatibhavan.  time taken is 40 units
+Path of john: munirka, chanakyapuri, rashtrapatibhavan.  time taken is 40 units
+Path of sheshadri: munirka, chanakyapuri, rashtrapatibhavan.  time taken is 40 units
+Path of ismail: lajpatnagar, AIIMS, indiagate, rashtrapatibhavan.  time taken is 55 units
+Path of harinder: lajpatnagar, AIIMS, indiagate, rashtrapatibhavan.  time taken is 55 units
+Path of rajesh: AIIMS, indiagate, rashtrapatibhavan.  time taken is 35 units
+Path of manoj: AIIMS, indiagate, rashtrapatibhavan.  time taken is 35 units
+Path of alice: indiagate, rashtrapatibhavan.  time taken is 5 units
+Path of adam: rashtrapatibhavan.  time taken is 0 units
+** Chose adam to service the customer request ***
+Path of customer: rashtrapatibhavan, indiagate, AIIMS. time taken is 35 units
+
+customer indiagate munirka 40 : 
+Available taxis:
+Path of sapna: indiagate.  time taken is 0 units
+Path of ram: AIIMS, indiagate.  time taken is 30 units
+Path of rohit: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan, indiagate.  time taken is 70 units
+Path of ashutosh: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan, indiagate.  time taken is 70 units
+Path of shafiq: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan, indiagate.  time taken is 70 units
+Path of mary: munirka, chanakyapuri, rashtrapatibhavan, indiagate.  time taken is 45 units
+Path of john: munirka, chanakyapuri, rashtrapatibhavan, indiagate.  time taken is 45 units
+Path of sheshadri: munirka, chanakyapuri, rashtrapatibhavan, indiagate.  time taken is 45 units
+Path of ismail: lajpatnagar, AIIMS, indiagate.  time taken is 50 units
+Path of harinder: lajpatnagar, AIIMS, indiagate.  time taken is 50 units
+Path of rajesh: AIIMS, indiagate.  time taken is 30 units
+Path of manoj: AIIMS, indiagate.  time taken is 30 units
+Path of alice: indiagate.  time taken is 0 units
+** Chose sapna to service the customer request ***
+Path of customer: indiagate, rashtrapatibhavan, chanakyapuri, munirka. time taken is 45 units
+
+printTaxiPosition 41 : 
+ram: AIIMS
+rohit: terminal3
+ashutosh: terminal3
+shafiq: terminal3
+mary: munirka
+john: munirka
+sheshadri: munirka
+ismail: lajpatnagar
+harinder: lajpatnagar
+rajesh: AIIMS
+manoj: AIIMS
+alice: indiagate
+
+customer rashtrapatibhavan terminal3 45 : 
+Available taxis:
+Path of ram: AIIMS, indiagate, rashtrapatibhavan.  time taken is 35 units
+Path of rohit: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan.  time taken is 65 units
+Path of ashutosh: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan.  time taken is 65 units
+Path of shafiq: terminal3, vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan.  time taken is 65 units
+Path of mary: munirka, chanakyapuri, rashtrapatibhavan.  time taken is 40 units
+Path of ankit: vasantvihar, cantonment, chanakyapuri, rashtrapatibhavan.  time taken is 55 units
+Path of john: munirka, chanakyapuri, rashtrapatibhavan.  time taken is 40 units
+Path of sheshadri: munirka, chanakyapuri, rashtrapatibhavan.  time taken is 40 units
+Path of ismail: lajpatnagar, AIIMS, indiagate, rashtrapatibhavan.  time taken is 55 units
+Path of harinder: lajpatnagar, AIIMS, indiagate, rashtrapatibhavan.  time taken is 55 units
+Path of rajesh: AIIMS, indiagate, rashtrapatibhavan.  time taken is 35 units
+Path of manoj: AIIMS, indiagate, rashtrapatibhavan.  time taken is 35 units
+Path of alice: indiagate, rashtrapatibhavan.  time taken is 5 units
+** Chose alice to service the customer request ***
+Path of customer: rashtrapatibhavan, chanakyapuri, cantonment, vasantvihar, terminal3. time taken is 65 units
+
+printTaxiPosition 46 : 
+ram: AIIMS
+rohit: terminal3
+ashutosh: terminal3
+shafiq: terminal3
+mary: munirka
+ankit: vasantvihar
+john: munirka
+sheshadri: munirka
+ismail: lajpatnagar
+harinder: lajpatnagar
+rajesh: AIIMS
+manoj: AIIMS
+
+printTaxiPosition 2000 : 
+sapna: munirka
+cyrus: terminal3
+ram: AIIMS
+rohit: terminal3
+ashutosh: terminal3
+shafiq: terminal3
+mary: munirka
+raja: chanakyapuri
+ankit: vasantvihar
+john: munirka
+sheshadri: munirka
+chinappa: lajpatnagar
+ismail: lajpatnagar
+harinder: lajpatnagar
+rajesh: AIIMS
+manoj: AIIMS
+prathmesh: lajpatnagar
+bob: AIIMS
+alice: terminal3
+adam: AIIMS
+
